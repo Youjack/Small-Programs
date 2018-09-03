@@ -29,6 +29,7 @@ int main()
 			else Sleep(60000);
 		}
 	}
+	ShowWindow(hwnd, SW_SHOW);
 	cout << "Not Charging !" << endl;
 	system("pause");
 }
