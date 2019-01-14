@@ -23,6 +23,7 @@ int main()
 				cout << "               STOP CHARGING !!!" << endl;
 				cout << "It is time to  STOP CHARGING !!!" << endl;
 				cout << "               STOP CHARGING !!!" << endl;
+				cout << "\a";
 				system("pause");
 				return 1;
 			}
