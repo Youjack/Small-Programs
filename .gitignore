@@ -1,4 +1,6 @@
 *.jpg
 *.html
 *.exe
+*.pdf
+*.csv
 .vscode
