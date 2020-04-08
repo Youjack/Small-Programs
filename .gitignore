@@ -4,3 +4,4 @@
 *.pdf
 *.csv
 .vscode
+/PDFMarker/PDFMarker-venv
