@@ -4,7 +4,7 @@ $url = "https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1&ensearch=1"
 $data = Invoke-WebRequest $url
 $decode = ConvertFrom-Json($data)
 $temp = $decode.images.Get(0)
-$urlsplit = -Join("https://www.bing.com",$temp.url)
+$urlsplit = -Join("https://www.bing.com", $temp.url -replace "1920x1080","UHD")
 Invoke-WebRequest $urlsplit -OutFile ("wallpaper.jpg")
 
 function Set-Wallpaper
